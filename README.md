@@ -11,7 +11,7 @@ opencms 汉化
 opencms 汉化工作步骤
 <ol>
 <li>先pull org.opencms.locale.zh 文件， 在这个文件夹中有德语文件，以及对应的中文文件，中文文件是8.01版的汉化包</li>
-<li>在本地翻译吧，建议采用eclipse， 使用localized properties editor, 可以在eclipse marketplace 中搜索localized properties,然后安装插件，使用这个插件，你就会知道为什么，在一个文件夹中同时有德语文件和中文文件的好处了</li>
+<li>在本地翻译吧，建议采用eclipse， 使用localized properties editor, 可以在eclipse marketplace 中搜索integrated properties editor，然后安装插件，使用这个插件，你就会知道为什么，在一个文件夹中同时有德语文件和中文文件的好处了</li>
 <li>汉化完毕了以后，push 上去，就可以了 “git push origin master”，</li>
 </ol>
 选择了要翻译的文件以后，请立刻先上传文件，这样别人就知道你的选择了。
